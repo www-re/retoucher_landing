@@ -1,4 +1,271 @@
-@import "./normalize.css";
-@import "./common.css";
+/* Base */
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+a,
+a:visited {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-@import "./header.css";
+/* Header */
+header {
+  padding-top: 26.37px;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+header .logo-img {
+  width: 147px;
+}
+.header-flex ul {
+  display: flex;
+  margin-left: 150.58px;
+}
+.header-flex ul li {
+  padding: 5px 35px;
+}
+.header-flex ul li:not(:last-child) {
+  border-right: 1px solid #343460;
+}
+.nav-link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #343460;
+  transition: 200ms ease;
+}
+.nav-link:hover {
+  transition: 200ms ease;
+  color: #ef4447;
+}
+
+/* Hero */
+.hero {
+  padding-top: 97.26px;
+  padding-bottom: 235.49px;
+  /* background-image: url("../img/hero-man.svg"), url("../img/hero-bg.png");
+  background-position: bottom -200px right 0, right 0 bottom -50px;
+  background-size: 1199px 894px, 100%;
+  background-repeat: no-repeat; */
+}
+.hero-text {
+  text-align: left;
+}
+.hero-text h1 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 91px;
+  text-transform: uppercase;
+  color: #ee4148;
+}
+.hero-text h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  color: #2d2d2d;
+  margin-bottom: 20.23px;
+}
+.hero-text p {
+  width: 470px;
+  font-size: 22px;
+  line-height: 140%;
+  color: #2d2d2d;
+  margin-bottom: 40.46px;
+}
+.hero-text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 60px;
+  background: #8ed864;
+  border-radius: 67px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.hero-text a:hover {
+  background: #c2eeaa;
+}
+
+/* Who */
+.who {
+  padding-top: 118.14px;
+  padding-bottom: 145.16px;
+  margin-left: -260px;
+}
+.who-top {
+  display: flex;
+  justify-content: center;
+}
+.who-top img {
+  width: 694.5px;
+  height: 761.6px;
+}
+.top-text {
+  width: 521px;
+  margin-left: 60px;
+  margin-top: 70px;
+}
+.top-text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #2d2d2d;
+  margin-bottom: 18.23px;
+}
+.top-text p {
+  font-size: 18px;
+  line-height: 140%;
+  color: #2d2d2d;
+}
+.who-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: -250px;
+  margin-left: 250px;
+}
+.who-cards .card {
+  width: 347.5px;
+}
+.who-cards .card:first-child {
+  margin-right: 185.29px;
+}
+.card-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 310px;
+  height: 179.74px;
+  background: #ffffff;
+  box-shadow: -2px 3px 14px rgba(58, 58, 58, 0.16);
+  border-radius: 11px;
+  margin-bottom: 40.84px;
+}
+.who-cards .card-top:hover {
+  box-shadow: -3px 2px 60px rgba(210, 227, 246, 0.5);
+}
+.who-cards .card-top img {
+  width: 75px;
+  height: 75px;
+}
+.who-cards .card-top p {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.who-cards .card > p {
+  font-size: 18px;
+  line-height: 140%;
+  color: #2d2d2d;
+}
+
+/* Duties */
+.duties {
+  padding-top: 117px;
+  padding-bottom: 125px;
+  background: #f3fced;
+}
+.duties-flex h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  color: #2d2d2d;
+  margin-bottom: 32px;
+}
+.duties-flex > p {
+  width: 827.75px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #2d2d2d;
+  margin-bottom: 60.25px;
+}
+.duties-cards {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 78.85px;
+}
+.duties-cards .card {
+  width: 209px;
+}
+.duties-cards .card:not(:last-child) {
+  margin-right: 151.5px;
+}
+.image-wrapper {
+  width: 168.55px;
+  height: 168.55px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13.45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-wrapper img {
+  width: 73px;
+  height: 73px;
+}
+.duties-cards .card p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #2d2d2d;
+}
+.duties-flex a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 60px;
+  background: #8ed864;
+  border-radius: 67px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.duties-flex a:hover {
+  background: #c2eeaa;
+}
