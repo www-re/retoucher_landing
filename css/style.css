@@ -1,6 +1,6 @@
 /* Base */
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,6 @@ body {
 }
 a,
 a:visited {
-  color: inherit;
   display: inline-block;
   text-decoration: none;
 }
@@ -560,3 +559,7 @@ footer {
   color: #ee3f48;
 }
 /* contacts */
+
+.swiper-container {
+  display: none;
+}

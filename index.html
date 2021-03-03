@@ -3,16 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="./img/cropped-favicon-32x32.ico" />
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/tablet.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-
     <title>RemotEmployees</title>
   </head>
   <body>
@@ -34,7 +41,7 @@
     <!-- Основне меню -->
     <header>
       <div class="container header-flex">
-        <a href="./index.html"
+        <a class="header-logo-link" href="./index.html"
           ><img
             src="./img/desktop-logo-header.svg"
             alt="company logo"
@@ -68,7 +75,13 @@
       <section class="who">
         <div class="container who-flex" id="who">
           <div class="who-top">
-            <img src="./img/who-top.svg" alt="magic illustration" />
+            <picture>
+              <source
+                srcset="./img/who-top-mobile.svg"
+                media="(max-width: 799px)"
+              />
+              <img src="./img/who-top.svg" alt="magic illustration" />
+            </picture>
             <div class="top-text">
               <h1>Кто Такой Ретушер Коллажист?</h1>
               <p>
@@ -102,6 +115,41 @@
               </p>
             </li>
           </ul>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-box slide-one">
+                <div class="card-top">
+                  <img src="./img/who-brush.svg" alt="brush illustration" />
+                  <p>Retoucher</p>
+                </div>
+
+                <p>
+                  Это человек, который занимается обработкой фотографий. Есть
+                  много программ которые помогают ретушерам. Ты можешь начать,
+                  даже не зная программы Photoshop, мы всему тебя научим.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box slide-two">
+                <div class="card-top">
+                  <img src="./img/who-burst.svg" alt="burst illustration" />
+                  <p>Коллажист</p>
+                </div>
+                <p>
+                  Это человек, который по фотографиям создает коллажи,
+                  композиции, большие макеты в которые добавляет по несколько
+                  фотографий.
+                </p>
+                <div class="card-bottom-color"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
         </div>
       </section>
 
@@ -272,12 +320,18 @@
           <li>
             <a href="" class="contact-link"
               ><img src="./img/c-email.svg" alt="contact illustation" />
-              <span>E-mail: hr@remotemployees.com </span>
+              <span
+                ><span class="mobile-hidden">E-mail:</span>
+                hr@remotemployees.com
+              </span>
             </a>
           </li>
           <li>
             <img src="./img/c-home.svg" alt="contact illustation" />
-            <span>Адрес: ул. Рымарская 22, Харьков, Украина</span>
+            <span
+              ><span class="mobile-hidden">Адрес:</span> ул. Рымарская 22,
+              Харьков, Украина</span
+            >
           </li>
           <li>
             <ul class="soclinks-mobile">
