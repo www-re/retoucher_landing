@@ -1,0 +1,226 @@
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .about-flex > img {
+    width: 527.94px;
+  }
+  .form-flex > img {
+    width: 598.27px;
+  }
+  .who-top > img {
+    width: 596.5px;
+    margin-left: 200px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .about-flex > img {
+    width: 427.94px;
+    height: auto;
+  }
+  .form-flex > img {
+    width: 498.27px;
+    height: auto;
+    margin-right: 65px;
+  }
+  .who-top > img {
+    width: 596.5px;
+    margin-left: 200px;
+  }
+  /* header */
+  .header-flex ul {
+    margin-left: 150px;
+  }
+  .header-flex ul > li {
+    padding: 0 25px;
+  }
+  /* how */
+  .how-cards > .card:not(:last-child) {
+    margin-right: 60px;
+  }
+  /* who */
+  .who-cards > .card:not(:last-child) {
+    margin-right: 155px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1099px) {
+  .about-flex > img {
+    width: 427.94px;
+    height: auto;
+  }
+  .about-text {
+    margin-right: 37px;
+  }
+  .form-flex > img {
+    width: 448.27px;
+    height: auto;
+    margin-right: 55px;
+  }
+  .who-top > img {
+    width: 596.5px;
+    margin-left: 200px;
+  }
+  /* header */
+  .header-flex ul {
+    margin-left: 100px;
+  }
+  .header-flex ul > li {
+    padding: 0 20px;
+  }
+  /* hero */
+  .hero-text h1 {
+    font-size: 65px;
+  }
+  /* how */
+  .how-cards > .card:not(:last-child) {
+    margin-right: 45px;
+  }
+  .how-cards > .card {
+    padding: 29.91px 25px 70px;
+  }
+  /* who */
+  .who-cards > .card:not(:last-child) {
+    margin-right: 155px;
+  }
+}
+@media (min-width: 900px) and (max-width: 999px) {
+  .about-flex {
+    align-items: center;
+  }
+  .about-flex > img {
+    width: 327.94px;
+    height: auto;
+  }
+  .about-text {
+    margin-right: 27px;
+    width: 431px;
+    margin-top: 0;
+  }
+  .about-text > h2,
+  .about-text > p {
+    width: 431px;
+  }
+  .about-text > h2 {
+    font-size: 40px;
+  }
+  /* form */
+  .form-flex > img {
+    width: 400.27px;
+    height: auto;
+    margin-right: 35px;
+  }
+  .form-text > input {
+    width: 400.22px;
+  }
+  .form-text > h2 {
+    width: 400.22px;
+  }
+  .form-text > button {
+    width: 400.22px;
+  }
+  /* who */
+  .who-top > img {
+    width: 496.5px;
+    margin-left: 250px;
+  }
+  .top-text {
+    margin-left: 20px;
+  }
+  .top-text > h1 {
+    font-size: 40px;
+  }
+  /* header */
+  .header-flex ul {
+    margin-left: 50px;
+  }
+  .header-flex ul > li {
+    padding: 0 10px;
+  }
+  /* hero */
+  .hero-text h1 {
+    font-size: 50px;
+  }
+  .hero-text h2 {
+    font-size: 30px;
+  }
+  /* how */
+  .how-cards > .card:not(:last-child) {
+    margin-right: 25px;
+  }
+  .how-cards > .card {
+    padding: 29.91px 15px 70px;
+  }
+  .how-flex > h1 {
+    font-size: 40px;
+  }
+  /* duties */
+  .duties-cards .card:not(:last-child) {
+    margin-right: 101.5px;
+  }
+  .duties-flex > h1 {
+    font-size: 40px;
+  }
+  .image-wrapper {
+    width: 138.55px;
+    height: 138.55px;
+  }
+  /* who */
+  .who-cards > .card:not(:last-child) {
+    margin-right: 55px;
+  }
+  /* footer */
+  .footer-flex {
+    align-items: stretch;
+  }
+}
+
+/* HiddenElements */
+@media (max-width: 999px) {
+  /* footer */
+  footer {
+    padding-bottom: 18px;
+  }
+  .footer-flex .soclinks {
+    display: none;
+  }
+  .footer-flex .info > p {
+    display: none;
+  }
+  .soclinks-mobile {
+    display: flex;
+  }
+  .soclinks-mobile a:hover {
+    background: #ee3f48;
+  }
+  .soclinks-mobile a {
+    display: block;
+    width: 39.93px;
+    height: 39.91px;
+    background: #cdcdcd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .soclinks-mobile > li .icon {
+    width: 24.2px;
+    height: 24.2px;
+    display: block;
+  }
+  .soclinks-mobile > li:not(:last-child) {
+    margin-right: 25.54px;
+  }
+  .copy-mobile {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    color: #ffffff;
+    text-align: left;
+    padding: 0 20px;
+    padding-top: 18px;
+  }
+}
+@media (min-width: 1000px) {
+  /* footer */
+  .soclinks-mobile {
+    display: none;
+  }
+}

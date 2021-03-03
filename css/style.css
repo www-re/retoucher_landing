@@ -1,6 +1,6 @@
 /* Base */
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -71,8 +71,8 @@ header .logo-img {
   padding-bottom: 235.49px;
   /* background-image: url("../img/hero-man.svg"), url("../img/hero-bg.png");
   background-position: bottom -200px right 0, right 0 bottom -50px;
-  background-size: 1199px 894px, 100%;
-  background-repeat: no-repeat; */
+  background-size: 1199px 894px, 100%; */
+  background-repeat: no-repeat;
 }
 .hero-text {
   text-align: left;
@@ -150,7 +150,7 @@ header .logo-img {
   display: flex;
   justify-content: center;
   margin-top: -250px;
-  margin-left: 250px;
+  margin-left: 280px;
 }
 .who-cards .card {
   width: 347.5px;
