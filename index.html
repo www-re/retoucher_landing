@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/mobile.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -26,6 +26,9 @@
               class="logo-img"
           /></a>
           <ul>
+            <li class="close-button">
+              <img src="./img/close-icon.svg" alt="close icon" />
+            </li>
             <li>
               <a href="#who" class="nav-link">О вакансии</a>
             </li>
@@ -44,160 +47,177 @@
           </ul>
         </div>
       </header>
-      <section class="hero">
-        <div class="container hero-flex">
-          <div class="hero-text">
-            <h1>Ретушер</h1>
-            <h2>со знанием английского</h2>
+      <main>
+        <section class="hero">
+          <div class="container hero-flex">
+            <div class="hero-text">
+              <h1>Ретушер</h1>
+              <h2>со знанием английского</h2>
+              <p>
+                Тебе к нам, если ты любишь красивые фотографии и хочешь их
+                создавать и за это получать хорошую зарплату!
+              </p>
+              <a href="#form">Откликнуться</a>
+            </div>
+          </div>
+        </section>
+        <section class="who">
+          <div class="container who-flex" id="who">
+            <div class="who-top">
+              <img src="./img/who-top.svg" alt="magic illustration" />
+              <div class="top-text">
+                <h1>Кто Такой Ретушер Коллажист?</h1>
+                <p>
+                  Эта профессия связанная с дизайном и рисованием, а также с
+                  Photoshop.В этой программе можно научиться обрабатывать фото,
+                  делать коллажи, различные дизайны и еще много интересного.
+                </p>
+              </div>
+            </div>
+            <ul class="who-cards">
+              <li class="card">
+                <div class="card-top">
+                  <img src="./img/who-brush.svg" alt="brush illustration" />
+                  <p>Retoucher</p>
+                </div>
+
+                <p>
+                  Это человек, который занимается обработкой фотографий. Есть
+                  много программ которые помогают ретушерам. Ты можешь начать,
+                  даже не зная программы Photoshop, мы всему тебя научим.
+                </p>
+              </li>
+              <li class="card">
+                <div class="card-top">
+                  <img src="./img/who-burst.svg" alt="burst illustration" />
+                  <p>Коллажист</p>
+                </div>
+                <p>
+                  Это человек, который по фотографиям создает коллажи,
+                  композиции, большие макеты в которые добавляет по несколько
+                  фотографий.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="duties">
+          <div class="container duties-flex" id="duties">
+            <h1>Обязанности Ретушера</h1>
             <p>
-              Тебе к нам, если ты любишь красивые фотографии и хочешь их
-              создавать и за это получать хорошую зарплату!
+              Нам требуется ретушер,коллажист на удаленную работу для выполнения
+              проектов от зарубежных клиентов. Потому что наша компания
+              <strong>Remote Employees</strong> занимается поиском людей без
+              опыта работы, их обучениям и поиском проектов на Европейских и
+              Американских рынках.
             </p>
+            <ul class="duties-cards">
+              <li class="card">
+                <div class="image-wrapper">
+                  <img
+                    src="./img/duties-camera.svg"
+                    alt="camera illustration"
+                  />
+                </div>
+                <p>Обрабатывать фото</p>
+              </li>
+              <li class="card">
+                <div class="image-wrapper">
+                  <img
+                    src="./img/duties-attached.svg"
+                    alt="attached illustration"
+                  />
+                </div>
+                <p>Делать слайды и композиции</p>
+              </li>
+              <li class="card">
+                <div class="image-wrapper">
+                  <img src="./img/duties-image.svg" alt="image illustration" />
+                </div>
+                <p>Создавать коллажи</p>
+              </li>
+            </ul>
             <a href="#form">Откликнуться</a>
           </div>
-        </div>
-      </section>
-      <section class="who">
-        <div class="container who-flex" id="who">
-          <div class="who-top">
-            <img src="./img/who-top.svg" alt="magic illustration" />
-            <div class="top-text">
-              <h1>Кто Такой Ретушер Коллажист?</h1>
+        </section>
+        <section class="about">
+          <div class="container about-flex" id="about">
+            <div class="about-text">
+              <h2>О нашей компании</h2>
               <p>
                 Эта профессия связанная с дизайном и рисованием, а также с
                 Photoshop.В этой программе можно научиться обрабатывать фото,
                 делать коллажи, различные дизайны и еще много интересного.
               </p>
             </div>
+            <img src="./img/about-image.svg" alt="employees illustration" />
           </div>
-          <ul class="who-cards">
-            <li class="card">
-              <div class="card-top">
-                <img src="./img/who-brush.svg" alt="brush illustration" />
-                <p>Retoucher</p>
-              </div>
-
-              <p>
-                Это человек, который занимается обработкой фотографий. Есть
-                много программ которые помогают ретушерам. Ты можешь начать,
-                даже не зная программы Photoshop, мы всему тебя научим.
-              </p>
-            </li>
-            <li class="card">
-              <div class="card-top">
-                <img src="./img/who-burst.svg" alt="burst illustration" />
-                <p>Коллажист</p>
-              </div>
-              <p>
-                Это человек, который по фотографиям создает коллажи, композиции,
-                большие макеты в которые добавляет по несколько фотографий.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="duties">
-        <div class="container duties-flex" id="duties">
-          <h1>Обязанности Ретушера</h1>
-          <p>
-            Нам требуется ретушер,коллажист на удаленную работу для выполнения
-            проектов от зарубежных клиентов. Потому что наша компания
-            <strong>Remote Employees</strong> занимается поиском людей без опыта
-            работы, их обучениям и поиском проектов на Европейских и
-            Американских рынках.
-          </p>
-          <ul class="duties-cards">
-            <li class="card">
-              <div class="image-wrapper">
-                <img src="./img/duties-camera.svg" alt="camera illustration" />
-              </div>
-              <p>Обрабатывать фото</p>
-            </li>
-            <li class="card">
-              <div class="image-wrapper">
-                <img
-                  src="./img/duties-attached.svg"
-                  alt="attached illustration"
-                />
-              </div>
-              <p>Делать слайды и композиции</p>
-            </li>
-            <li class="card">
-              <div class="image-wrapper">
-                <img src="./img/duties-image.svg" alt="image illustration" />
-              </div>
-              <p>Создавать коллажи</p>
-            </li>
-          </ul>
-          <a href="#form">Откликнуться</a>
-        </div>
-      </section>
-      <section class="about">
-        <div class="container about-flex" id="about">
-          <div class="about-text">
-            <h2>О нашей компании</h2>
-            <p>
-              Эта профессия связанная с дизайном и рисованием, а также с
-              Photoshop.В этой программе можно научиться обрабатывать фото,
-              делать коллажи, различные дизайны и еще много интересного.
-            </p>
+        </section>
+        <section class="how">
+          <div class="container how-flex" id="how">
+            <h1>Как Попасть к Нам в Команду</h1>
+            <ul class="how-cards">
+              <li class="card">
+                <h3>Шаг 1</h3>
+                <div class="image-wrapper">
+                  <img
+                    src="./img/how-play.svg"
+                    alt="play-button illustration"
+                  />
+                </div>
+                <h2>Запиши видеоинтервью</h2>
+                <p>
+                  Видео рассказ о себе вместо собеседования или звонка по
+                  скайпу.
+                </p>
+              </li>
+              <li class="card">
+                <h3>Шаг 2</h3>
+                <div class="image-wrapper">
+                  <img
+                    src="./img/how-edit.svg"
+                    alt="play-button illustration"
+                  />
+                </div>
+                <h2>Заполните форму сотрудника</h2>
+                <p>
+                  Подпишите договор о сотрудничестве, заполните форму
+                  сотрудника.
+                </p>
+              </li>
+              <li class="card">
+                <h3>Шаг 3</h3>
+                <div class="image-wrapper">
+                  <img
+                    src="./img/how-like.svg"
+                    alt="play-button illustration"
+                  />
+                </div>
+                <h2>Начни работу</h2>
+                <p>
+                  Вне зависимости от вашего опыта в каждой новой компании нужно
+                  время на адаптацию. Мы это понимаем.
+                </p>
+              </li>
+            </ul>
           </div>
-          <img src="./img/about-image.svg" alt="employees illustration" />
-        </div>
-      </section>
-      <section class="how">
-        <div class="container how-flex" id="how">
-          <h1>Как Попасть к Нам в Команду</h1>
-          <ul class="how-cards">
-            <li class="card">
-              <h3>Шаг 1</h3>
-              <div class="image-wrapper">
-                <img src="./img/how-play.svg" alt="play-button illustration" />
-              </div>
-              <h2>Запиши видеоинтервью</h2>
-              <p>
-                Видео рассказ о себе вместо собеседования или звонка по скайпу.
-              </p>
-            </li>
-            <li class="card">
-              <h3>Шаг 2</h3>
-              <div class="image-wrapper">
-                <img src="./img/how-edit.svg" alt="play-button illustration" />
-              </div>
-              <h2>Заполните форму сотрудника</h2>
-              <p>
-                Подпишите договор о сотрудничестве, заполните форму сотрудника.
-              </p>
-            </li>
-            <li class="card">
-              <h3>Шаг 3</h3>
-              <div class="image-wrapper">
-                <img src="./img/how-like.svg" alt="play-button illustration" />
-              </div>
-              <h2>Начни работу</h2>
-              <p>
-                Вне зависимости от вашего опыта в каждой новой компании нужно
-                время на адаптацию. Мы это понимаем.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="form">
-        <div class="container form-flex" id="form">
-          <img src="./img/form-img.svg" alt="form illustration" />
-          <form class="form-text">
-            <h2>
-              Присоединяйся <br />
-              к Нам Уже Сейчас
-            </h2>
-            <input type="text" placeholder="Имя" />
-            <input type="tel" placeholder="Телефон (Viber / Telegram)" />
-            <input type="email" placeholder="Email" />
-            <button type="submit" href="">Отправить заявку</button>
-          </form>
-        </div>
-      </section>
+        </section>
+        <section class="form">
+          <div class="container form-flex" id="form">
+            <img src="./img/form-img.svg" alt="form illustration" />
+            <form class="form-text">
+              <h2>
+                Присоединяйся <br />
+                к Нам Уже Сейчас
+              </h2>
+              <input type="text" placeholder="Имя" />
+              <input type="tel" placeholder="Телефон (Viber / Telegram)" />
+              <input type="email" placeholder="Email" />
+              <button type="submit" href="">Отправить заявку</button>
+            </form>
+          </div>
+        </section>
+      </main>
       <footer>
         <div class="container footer-flex">
           <div class="info">

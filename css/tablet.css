@@ -328,4 +328,7 @@
   .soclinks-mobile {
     display: none;
   }
+  .copy-mobile {
+    display: none;
+  }
 }
