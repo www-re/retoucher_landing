@@ -16,326 +16,322 @@
     <title>RemotEmployees</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <div class="container header-flex">
-          <a href="./index.html"
-            ><img
-              src="./img/desktop-logo-header.svg"
-              alt="company logo"
-              class="logo-img"
-          /></a>
-          <ul>
-            <li class="close-button">
-              <img src="./img/close-icon.svg" alt="close icon" />
-            </li>
-            <li>
-              <a href="#who" class="nav-link">О вакансии</a>
-            </li>
-            <li>
-              <a href="#duties" class="nav-link">Обязанности</a>
-            </li>
-            <li>
-              <a href="#about" class="nav-link">О нас</a>
-            </li>
-            <li>
-              <a href="#how" class="nav-link">Как попасть</a>
-            </li>
-            <li>
-              <a href="#form" class="nav-link">Контакты</a>
-            </li>
-          </ul>
-        </div>
-      </header>
-      <main>
-        <section class="hero">
-          <div class="container hero-flex">
-            <div class="hero-text">
-              <h1>Ретушер</h1>
-              <h2>со знанием английского</h2>
-              <p>
-                Тебе к нам, если ты любишь красивые фотографии и хочешь их
-                создавать и за это получать хорошую зарплату!
-              </p>
-              <a href="#form">Откликнуться</a>
-            </div>
-          </div>
-        </section>
-        <section class="who">
-          <div class="container who-flex" id="who">
-            <div class="who-top">
-              <img src="./img/who-top.svg" alt="magic illustration" />
-              <div class="top-text">
-                <h1>Кто Такой Ретушер Коллажист?</h1>
-                <p>
-                  Эта профессия связанная с дизайном и рисованием, а также с
-                  Photoshop.В этой программе можно научиться обрабатывать фото,
-                  делать коллажи, различные дизайны и еще много интересного.
-                </p>
-              </div>
-            </div>
-            <ul class="who-cards">
-              <li class="card">
-                <div class="card-top">
-                  <img src="./img/who-brush.svg" alt="brush illustration" />
-                  <p>Retoucher</p>
-                </div>
+    <!-- Бургер меню -->
+    <div class="burger-menu">
+      <a href="#" class="burger-menu_button">
+        <span class="burger-menu_lines"></span>
+      </a>
+      <nav class="burger-menu_nav">
+        <a href="#who" class="burger-menu_link">О вакансии</a>
+        <a href="#duties" class="burger-menu_link">Обязанности</a>
+        <a href="#about" class="burger-menu_link">О нас</a>
+        <a href="#how" class="burger-menu_link">Как попасть</a>
+        <a href="#form" class="burger-menu_link">Контакты</a>
+      </nav>
+      <div class="burger-menu_overlay"></div>
+    </div>
 
-                <p>
-                  Это человек, который занимается обработкой фотографий. Есть
-                  много программ которые помогают ретушерам. Ты можешь начать,
-                  даже не зная программы Photoshop, мы всему тебя научим.
-                </p>
-              </li>
-              <li class="card">
-                <div class="card-top">
-                  <img src="./img/who-burst.svg" alt="burst illustration" />
-                  <p>Коллажист</p>
-                </div>
-                <p>
-                  Это человек, который по фотографиям создает коллажи,
-                  композиции, большие макеты в которые добавляет по несколько
-                  фотографий.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="duties">
-          <div class="container duties-flex" id="duties">
-            <h1>Обязанности Ретушера</h1>
+    <!-- Основне меню -->
+    <header>
+      <div class="container header-flex">
+        <a href="./index.html"
+          ><img
+            src="./img/desktop-logo-header.svg"
+            alt="company logo"
+            class="logo-img"
+        /></a>
+        <nav class="nav-bar">
+          <a href="#who" class="nav-link">О вакансии</a>
+          <a href="#duties" class="nav-link">Обязанности</a>
+          <a href="#about" class="nav-link">О нас</a>
+          <a href="#how" class="nav-link">Как попасть</a>
+          <a href="#form" class="nav-link">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-flex">
+          <div class="hero-text">
+            <h1>Ретушер</h1>
+            <h2>со знанием английского</h2>
             <p>
-              Нам требуется ретушер,коллажист на удаленную работу для выполнения
-              проектов от зарубежных клиентов. Потому что наша компания
-              <strong>Remote Employees</strong> занимается поиском людей без
-              опыта работы, их обучениям и поиском проектов на Европейских и
-              Американских рынках.
+              Тебе к нам, если ты любишь красивые фотографии и хочешь их
+              создавать и за это получать хорошую зарплату!
             </p>
-            <ul class="duties-cards">
-              <li class="card">
-                <div class="image-wrapper">
-                  <img
-                    src="./img/duties-camera.svg"
-                    alt="camera illustration"
-                  />
-                </div>
-                <p>Обрабатывать фото</p>
-              </li>
-              <li class="card">
-                <div class="image-wrapper">
-                  <img
-                    src="./img/duties-attached.svg"
-                    alt="attached illustration"
-                  />
-                </div>
-                <p>Делать слайды и композиции</p>
-              </li>
-              <li class="card">
-                <div class="image-wrapper">
-                  <img src="./img/duties-image.svg" alt="image illustration" />
-                </div>
-                <p>Создавать коллажи</p>
-              </li>
-            </ul>
             <a href="#form">Откликнуться</a>
           </div>
-        </section>
-        <section class="about">
-          <div class="container about-flex" id="about">
-            <div class="about-text">
-              <h2>О нашей компании</h2>
+        </div>
+      </section>
+
+      <section class="who">
+        <div class="container who-flex" id="who">
+          <div class="who-top">
+            <img src="./img/who-top.svg" alt="magic illustration" />
+            <div class="top-text">
+              <h1>Кто Такой Ретушер Коллажист?</h1>
               <p>
                 Эта профессия связанная с дизайном и рисованием, а также с
                 Photoshop.В этой программе можно научиться обрабатывать фото,
                 делать коллажи, различные дизайны и еще много интересного.
               </p>
             </div>
-            <img src="./img/about-image.svg" alt="employees illustration" />
           </div>
-        </section>
-        <section class="how">
-          <div class="container how-flex" id="how">
-            <h1>Как Попасть к Нам в Команду</h1>
-            <ul class="how-cards">
-              <li class="card">
-                <h3>Шаг 1</h3>
-                <div class="image-wrapper">
-                  <img
-                    src="./img/how-play.svg"
-                    alt="play-button illustration"
-                  />
-                </div>
-                <h2>Запиши видеоинтервью</h2>
-                <p>
-                  Видео рассказ о себе вместо собеседования или звонка по
-                  скайпу.
-                </p>
-              </li>
-              <li class="card">
-                <h3>Шаг 2</h3>
-                <div class="image-wrapper">
-                  <img
-                    src="./img/how-edit.svg"
-                    alt="play-button illustration"
-                  />
-                </div>
-                <h2>Заполните форму сотрудника</h2>
-                <p>
-                  Подпишите договор о сотрудничестве, заполните форму
-                  сотрудника.
-                </p>
-              </li>
-              <li class="card">
-                <h3>Шаг 3</h3>
-                <div class="image-wrapper">
-                  <img
-                    src="./img/how-like.svg"
-                    alt="play-button illustration"
-                  />
-                </div>
-                <h2>Начни работу</h2>
-                <p>
-                  Вне зависимости от вашего опыта в каждой новой компании нужно
-                  время на адаптацию. Мы это понимаем.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="form">
-          <div class="container form-flex" id="form">
-            <img src="./img/form-img.svg" alt="form illustration" />
-            <form class="form-text">
-              <h2>
-                Присоединяйся <br />
-                к Нам Уже Сейчас
-              </h2>
-              <input type="text" placeholder="Имя" />
-              <input type="tel" placeholder="Телефон (Viber / Telegram)" />
-              <input type="email" placeholder="Email" />
-              <button type="submit" href="">Отправить заявку</button>
-            </form>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <div class="container footer-flex">
-          <div class="info">
-            <a href="./index.html"
-              ><img
-                src="./img/desktop-logo-footer.svg"
-                alt="company logo"
-                class="logo-img"
-            /></a>
-            <p class="copy">2021 &copy; Все права защищены</p>
-          </div>
-          <ul class="soclinks">
-            <li>
-              <a href=""
-                ><img
-                  src="./img/soc-viber.svg"
-                  alt="soclink image"
-                  class="icon"
-              /></a>
+          <ul class="who-cards">
+            <li class="card">
+              <div class="card-top">
+                <img src="./img/who-brush.svg" alt="brush illustration" />
+                <p>Retoucher</p>
+              </div>
+
+              <p>
+                Это человек, который занимается обработкой фотографий. Есть
+                много программ которые помогают ретушерам. Ты можешь начать,
+                даже не зная программы Photoshop, мы всему тебя научим.
+              </p>
             </li>
-            <li>
-              <a href=""
-                ><img
-                  src="./img/soc-whatsapp.svg"
-                  alt="soclink image"
-                  class="icon"
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img
-                  src="./img/soc-telegram.svg"
-                  alt="soclink image"
-                  class="icon"
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img
-                  src="./img/soc-instagram.svg"
-                  alt="soclink image"
-                  class="icon"
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img
-                  src="./img/soc-facebook.svg"
-                  alt="soclink image"
-                  class="icon"
-              /></a>
-            </li>
-          </ul>
-          <ul class="contacts">
-            <li>
-              <a href="" class="contact-link"
-                ><img src="./img/c-viber.svg" alt="contact illustation" />
-                <span>Валерия +380994160329</span>
-              </a>
-            </li>
-            <li>
-              <a href="" class="contact-link"
-                ><img src="./img/c-email.svg" alt="contact illustation" />
-                <span>E-mail: hr@remotemployees.com </span>
-              </a>
-            </li>
-            <li>
-              <img src="./img/c-home.svg" alt="contact illustation" />
-              <span>Адрес: ул. Рымарская 22, Харьков, Украина</span>
-            </li>
-            <li>
-              <ul class="soclinks-mobile">
-                <li>
-                  <a href=""
-                    ><img
-                      src="./img/soc-viber.svg"
-                      alt="soclink image"
-                      class="icon"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img
-                      src="./img/soc-whatsapp.svg"
-                      alt="soclink image"
-                      class="icon"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img
-                      src="./img/soc-telegram.svg"
-                      alt="soclink image"
-                      class="icon"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img
-                      src="./img/soc-instagram.svg"
-                      alt="soclink image"
-                      class="icon"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img
-                      src="./img/soc-facebook.svg"
-                      alt="soclink image"
-                      class="icon"
-                  /></a>
-                </li>
-              </ul>
+            <li class="card">
+              <div class="card-top">
+                <img src="./img/who-burst.svg" alt="burst illustration" />
+                <p>Коллажист</p>
+              </div>
+              <p>
+                Это человек, который по фотографиям создает коллажи, композиции,
+                большие макеты в которые добавляет по несколько фотографий.
+              </p>
             </li>
           </ul>
         </div>
-        <p class="copy-mobile">2021 &copy; Все права защищены</p>
-      </footer>
-    </div>
+      </section>
+
+      <section class="duties">
+        <div class="container duties-flex" id="duties">
+          <h1>Обязанности Ретушера</h1>
+          <p>
+            Нам требуется ретушер,коллажист на удаленную работу для выполнения
+            проектов от зарубежных клиентов. Потому что наша компания
+            <strong>Remote Employees</strong> занимается поиском людей без опыта
+            работы, их обучениям и поиском проектов на Европейских и
+            Американских рынках.
+          </p>
+          <ul class="duties-cards">
+            <li class="card">
+              <div class="image-wrapper">
+                <img src="./img/duties-camera.svg" alt="camera illustration" />
+              </div>
+              <p>Обрабатывать фото</p>
+            </li>
+            <li class="card">
+              <div class="image-wrapper">
+                <img
+                  src="./img/duties-attached.svg"
+                  alt="attached illustration"
+                />
+              </div>
+              <p>Делать слайды и композиции</p>
+            </li>
+            <li class="card">
+              <div class="image-wrapper">
+                <img src="./img/duties-image.svg" alt="image illustration" />
+              </div>
+              <p>Создавать коллажи</p>
+            </li>
+          </ul>
+          <a href="#form">Откликнуться</a>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about-flex" id="about">
+          <div class="about-text">
+            <h2>О нашей компании</h2>
+            <p>
+              Эта профессия связанная с дизайном и рисованием, а также с
+              Photoshop.В этой программе можно научиться обрабатывать фото,
+              делать коллажи, различные дизайны и еще много интересного.
+            </p>
+          </div>
+          <img src="./img/about-image.svg" alt="employees illustration" />
+        </div>
+      </section>
+
+      <section class="how">
+        <div class="container how-flex" id="how">
+          <h1>Как Попасть к Нам в Команду</h1>
+          <ul class="how-cards">
+            <li class="card">
+              <h3>Шаг 1</h3>
+              <div class="image-wrapper">
+                <img src="./img/how-play.svg" alt="play-button illustration" />
+              </div>
+              <h2>Запиши видеоинтервью</h2>
+              <p>
+                Видео рассказ о себе вместо собеседования или звонка по скайпу.
+              </p>
+            </li>
+            <li class="card">
+              <h3>Шаг 2</h3>
+              <div class="image-wrapper">
+                <img src="./img/how-edit.svg" alt="play-button illustration" />
+              </div>
+              <h2>Заполните форму сотрудника</h2>
+              <p>
+                Подпишите договор о сотрудничестве, заполните форму сотрудника.
+              </p>
+            </li>
+            <li class="card">
+              <h3>Шаг 3</h3>
+              <div class="image-wrapper">
+                <img src="./img/how-like.svg" alt="play-button illustration" />
+              </div>
+              <h2>Начни работу</h2>
+              <p>
+                Вне зависимости от вашего опыта в каждой новой компании нужно
+                время на адаптацию. Мы это понимаем.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="container form-flex" id="form">
+          <img src="./img/form-img.svg" alt="form illustration" />
+          <form class="form-text">
+            <h2>
+              Присоединяйся <br />
+              к Нам Уже Сейчас
+            </h2>
+            <input type="text" placeholder="Имя" />
+            <input type="tel" placeholder="Телефон (Viber / Telegram)" />
+            <input type="email" placeholder="Email" />
+            <button type="submit" href="">Отправить заявку</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-flex">
+        <div class="info">
+          <a href="./index.html"
+            ><img
+              src="./img/desktop-logo-footer.svg"
+              alt="company logo"
+              class="logo-img"
+          /></a>
+          <p class="copy">2021 &copy; Все права защищены</p>
+        </div>
+        <ul class="soclinks">
+          <li>
+            <a href=""
+              ><img src="./img/soc-viber.svg" alt="soclink image" class="icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="./img/soc-whatsapp.svg"
+                alt="soclink image"
+                class="icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="./img/soc-telegram.svg"
+                alt="soclink image"
+                class="icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="./img/soc-instagram.svg"
+                alt="soclink image"
+                class="icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="./img/soc-facebook.svg"
+                alt="soclink image"
+                class="icon"
+            /></a>
+          </li>
+        </ul>
+        <ul class="contacts">
+          <li>
+            <a href="" class="contact-link"
+              ><img src="./img/c-viber.svg" alt="contact illustation" />
+              <span>Валерия +380994160329</span>
+            </a>
+          </li>
+          <li>
+            <a href="" class="contact-link"
+              ><img src="./img/c-email.svg" alt="contact illustation" />
+              <span>E-mail: hr@remotemployees.com </span>
+            </a>
+          </li>
+          <li>
+            <img src="./img/c-home.svg" alt="contact illustation" />
+            <span>Адрес: ул. Рымарская 22, Харьков, Украина</span>
+          </li>
+          <li>
+            <ul class="soclinks-mobile">
+              <li>
+                <a href=""
+                  ><img
+                    src="./img/soc-viber.svg"
+                    alt="soclink image"
+                    class="icon"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./img/soc-whatsapp.svg"
+                    alt="soclink image"
+                    class="icon"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./img/soc-telegram.svg"
+                    alt="soclink image"
+                    class="icon"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./img/soc-instagram.svg"
+                    alt="soclink image"
+                    class="icon"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./img/soc-facebook.svg"
+                    alt="soclink image"
+                    class="icon"
+                /></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <p class="copy-mobile">2021 &copy; Все права защищены</p>
+    </footer>
+
+    <!-- Скрипт -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/swiper_page.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

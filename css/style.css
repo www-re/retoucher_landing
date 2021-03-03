@@ -44,14 +44,14 @@ header {
 header .logo-img {
   width: 147px;
 }
-.header-flex ul {
+.nav-bar {
   display: flex;
   margin-left: 150.58px;
 }
-.header-flex ul li {
+.nav-bar a {
   padding: 5px 35px;
 }
-.header-flex .desktop-menu li:not(:last-child) {
+.nav-bar a:not(:last-child) {
   border-right: 1px solid #343460;
 }
 .nav-link {
@@ -64,6 +64,8 @@ header .logo-img {
   transition: 200ms ease;
   color: #ef4447;
 }
+
+/* Burder menu */
 
 /* Hero */
 .hero {
