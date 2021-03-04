@@ -563,3 +563,7 @@ footer {
 .swiper-container {
   display: none;
 }
+
+.duties-button-mobile {
+  display: none;
+}
