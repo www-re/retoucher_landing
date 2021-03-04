@@ -636,4 +636,93 @@
 }
 
 @media (min-width: 500px) and (max-width: 599px) {
+  /* who */
+  .who {
+    padding-bottom: 45.16px;
+  }
+  .who-top {
+    margin-bottom: 0;
+    /* flex-direction: row; */
+    margin-bottom: -50px;
+  }
+  .who-top img {
+    width: 380px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-text h1 {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+  .top-text p {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+  /* about */
+  .about {
+    padding-top: 61px;
+    padding-bottom: 61px;
+  }
+  .about-text h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+  }
+  .about-text p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+  }
+  .about-flex img {
+    width: 380px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* duties */
+  .duties {
+    padding-bottom: 48px;
+  }
+  .duties .swiper-slide {
+    height: 250px;
+  }
+  .duties .swiper-container {
+    height: 300px;
+  }
+  /* how */
+  .how {
+    padding-bottom: 11px;
+  }
+  .how h1 {
+    width: 380px;
+  }
+  /* form */
+  .form {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .form input {
+    width: 360px;
+  }
+  .form button {
+    width: 300px;
+    margin-top: 20px;
+  }
+  .form-flex {
+    flex-direction: column;
+  }
+  .form-flex img {
+    display: block;
+    width: 380px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  /* footer */
 }
