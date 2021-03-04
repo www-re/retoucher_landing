@@ -499,13 +499,16 @@
   }
   .who-top {
     margin-bottom: 0;
-    margin-bottom: -150px;
+    margin-bottom: -100px;
+    flex-direction: row;
   }
   .who-top img {
     width: 300px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-right: 30px;
+    margin-left: 60px;
   }
   .top-text h1 {
     width: 400px;
@@ -547,6 +550,10 @@
     padding-bottom: 11px;
   }
   /* form */
+  .form {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
   .form-flex img {
     display: block;
     width: 300px;
@@ -556,4 +563,77 @@
   .footer-flex {
     flex-direction: row;
   }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+  /* who */
+  .who {
+    padding-bottom: 45.16px;
+  }
+  .who-top {
+    margin-bottom: 0;
+    flex-direction: row;
+  }
+  .who-top img {
+    width: 280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-text h1 {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+  .top-text p {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+  /* about */
+  .about {
+    padding-top: 81px;
+    padding-bottom: 81px;
+  }
+  .about-flex {
+    flex-direction: row;
+  }
+  .about-flex img {
+    width: 300px;
+    height: auto;
+    margin-left: 0;
+  }
+  /* duties */
+  .duties {
+    padding-bottom: 48px;
+  }
+  .duties .swiper-slide {
+    height: 250px;
+  }
+  .duties .swiper-container {
+    height: 300px;
+  }
+  /* how */
+  .how {
+    padding-bottom: 11px;
+  }
+  /* form */
+  .form {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .form-flex img {
+    display: block;
+    width: 300px;
+    margin-right: 20px;
+  }
+  /* footer */
+  .footer-flex {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
 }
