@@ -1,6 +1,6 @@
 /* Base */
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -557,6 +557,9 @@ footer {
 }
 .contacts > li:not(:last-child):hover span {
   color: #ee3f48;
+}
+.contacts .mobile-hidden {
+  margin-left: 0;
 }
 /* contacts */
 

@@ -170,14 +170,14 @@
     width: 100%;
   }
   .who-top h1 {
-    width: 287.38px;
+    width: 280px;
     font-weight: 700;
     font-size: 26px;
     line-height: 115%;
     margin-bottom: 8px;
   }
   .who-top p {
-    /* width: 297.14px; */
+    width: 280px;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -424,11 +424,11 @@
     margin-bottom: 27.91px;
   }
   .soclinks-mobile li {
-    width: 33.56px;
-    height: 33.56px;
+    width: 39.93px;
+    height: 39.91px;
   }
   .soclinks-mobile li:not(:last-child) {
-    margin-right: 21.34px;
+    margin-right: 13.34px;
   }
   /* swiper */
   .swiper-container {
@@ -725,4 +725,62 @@
     margin-bottom: 40px;
   }
   /* footer */
+}
+
+@media (min-width: 400px) and (max-width: 499px) {
+  /* who */
+  .who {
+    padding-bottom: 75.16px;
+  }
+  .top-text h1 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+  .top-text p {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+  /* about */
+  .about {
+    padding-top: 61px;
+    padding-bottom: 61px;
+  }
+  .about-text h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  .about-text p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  .about-flex img {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* how */
+  .how {
+    padding-bottom: 11px;
+  }
+  /* form */
+  .form {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .form input {
+    width: 300px;
+    height: 50px;
+  }
+  .form button {
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+  }
 }
