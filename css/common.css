@@ -67,7 +67,7 @@ header .logo-img {
 /* Burder menu */
 
 /* Hero */
-@media (min-width: 1000px) {
+@media (min-width: 500px) {
   .hero {
     position: relative;
     padding-top: 97.26px;

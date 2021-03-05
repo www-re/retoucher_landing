@@ -493,6 +493,10 @@
 }
 
 @media (min-width: 700px) and (max-width: 799px) {
+  .hero {
+    background-position: bottom -200px right -50px, right 0 bottom -50px;
+    background-size: 699px 694px, 100%;
+  }
   /* who */
   .who {
     padding-bottom: 45.16px;
@@ -566,6 +570,10 @@
 }
 
 @media (min-width: 600px) and (max-width: 699px) {
+  .hero {
+    background-position: bottom -200px right 0, right 0 bottom -50px;
+    background-size: 599px 594px, 100%;
+  }
   /* who */
   .who {
     padding-bottom: 45.16px;
@@ -636,6 +644,15 @@
 }
 
 @media (min-width: 500px) and (max-width: 599px) {
+  .hero {
+    background-image: url("../img/mobile-bg-hero/Group.svg"),
+      url("../img/mobile-bg-hero/Vector.svg");
+    background-size: 100% 378.63px, 100% 619.95px;
+    background-position: left 0 bottom -100px, right 0 bottom -100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
   /* who */
   .who {
     padding-bottom: 45.16px;
@@ -728,6 +745,15 @@
 }
 
 @media (min-width: 400px) and (max-width: 499px) {
+  .hero {
+    background-image: url("../img/mobile-bg-hero/Group.svg"),
+      url("../img/mobile-bg-hero/Vector.svg");
+    background-size: 100% 378.63px, 100% 619.95px;
+    background-position: left 0 bottom -100px, right 0 bottom -100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
   /* who */
   .who {
     padding-bottom: 75.16px;
@@ -782,5 +808,16 @@
     width: 300px;
     height: 50px;
     margin-top: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 399px) {
+  .hero {
+    background-image: url("../img/mobile-bg-hero/Group.svg"),
+      url("../img/mobile-bg-hero/Vector.svg");
+    background-size: 100% 378.63px, 100% 619.95px;
+    background-position: left 0 bottom -100px, right 0 bottom -100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
   }
 }
