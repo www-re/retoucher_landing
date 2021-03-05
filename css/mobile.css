@@ -810,6 +810,7 @@
     margin-top: 20px;
   }
 }
+/* bg */
 @media (min-width: 320px) and (max-width: 399px) {
   .hero {
     background-image: url("../img/mobile-bg-hero/Group.svg"),
@@ -819,5 +820,28 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .about {
+    background-image: url("../img/about-vectors/Vector.svg"),
+      url("../img/about-vectors/Vector-1.svg");
+    background-repeat: no-repeat;
+    background-position: right 106px bottom 56px, right 235px bottom 56px;
+    background-attachment: fixed;
+  }
+  .how {
+    background-image: url("../img/about-vectors/Vector-2.svg");
+    background-repeat: no-repeat;
+    background-position: left -30px top 185px;
+    background-attachment: fixed;
+  }
+  .form {
+    background-image: url("../img/mobile-bg-form/Vector-1.svg"),
+      url("../img/mobile-bg-form/Vector.svg");
+    background-position: right 0 bottom -50px, right -3px bottom -55px;
+    background-repeat: no-repeat;
+    background-size: 144.36px 162.4px, 156.85px 176.28px;
   }
 }
