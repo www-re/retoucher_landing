@@ -29,6 +29,16 @@
     <title>RemotEmployees</title>
   </head>
   <body>
+    <script type="text/javascript">
+      var submitted = false;
+    </script>
+    <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="
+        if (submitted) {window.location='./thank-you.html'}"
+    ></iframe>
     <!-- Бургер меню -->
     <div class="burger-menu">
       <a href="#" class="burger-menu_button">
@@ -402,15 +412,38 @@
       <section class="form" id="form">
         <div class="container form-flex">
           <img src="./img/form-img.svg" alt="form illustration" />
-          <form class="form-text">
+          <form
+            class="form-text"
+            action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdqhf65YbMjfDv7mBFJMyPfAKPP6NlJghRLTjskM8ik-5KcTg/formResponse"
+            method="POST"
+            target="hidden_iframe"
+            onsubmit="submitted=true;"
+          >
             <h2>
               Присоединяйся <br />
               к Нам Уже Сейчас
             </h2>
-            <input type="text" placeholder="Имя" />
-            <input type="tel" placeholder="Телефон (Viber / Telegram)" />
-            <input type="email" placeholder="Email" />
-            <button type="submit" href="">Отправить заявку</button>
+            <input
+              type="text"
+              placeholder="Имя"
+              pattern="[а-яА-Я]+"
+              name="entry.1164864260"
+              required
+            />
+            <input
+              type="tel"
+              placeholder="Телефон (Viber / Telegram)"
+              pattern="[0-9]+"
+              name="entry.996335081"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              name="entry.1554962586"
+              required
+            />
+            <button type="submit">Отправить заявку</button>
           </form>
         </div>
       </section>
@@ -429,12 +462,12 @@
         </div>
         <ul class="soclinks">
           <li>
-            <a href=""
+            <a href="viber://chat?number=380666146404" target="_blank"
               ><img src="./img/soc-viber.svg" alt="soclink image" class="icon"
             /></a>
           </li>
           <li>
-            <a href=""
+            <a href="https://wa.me/380666146404" target="_blank"
               ><img
                 src="./img/soc-whatsapp.svg"
                 alt="soclink image"
@@ -442,7 +475,7 @@
             /></a>
           </li>
           <li>
-            <a href=""
+            <a href="https://t.me/remotemployees" target="_blank"
               ><img
                 src="./img/soc-telegram.svg"
                 alt="soclink image"
@@ -450,7 +483,7 @@
             /></a>
           </li>
           <li>
-            <a href=""
+            <a href="https://www.instagram.com/remotemployees/" target="_blank"
               ><img
                 src="./img/soc-instagram.svg"
                 alt="soclink image"
@@ -458,7 +491,7 @@
             /></a>
           </li>
           <li>
-            <a href=""
+            <a href="https://fb.com/remotemployees" target="_blank"
               ><img
                 src="./img/soc-facebook.svg"
                 alt="soclink image"
@@ -468,13 +501,13 @@
         </ul>
         <ul class="contacts">
           <li>
-            <a href="" class="contact-link"
+            <a href="viber://chat?number=380994160329" class="contact-link"
               ><img src="./img/c-viber.svg" alt="contact illustation" />
               <span>Валерия +380994160329</span>
             </a>
           </li>
           <li>
-            <a href="" class="contact-link"
+            <a href="mailto:hr@remotemployees.com" class="contact-link"
               ><img src="./img/c-email.svg" alt="contact illustation" />
               <span
                 ><span class="mobile-hidden">E-mail:</span>
@@ -492,7 +525,7 @@
           <li>
             <ul class="soclinks-mobile">
               <li>
-                <a href=""
+                <a href="viber://chat?number=380666146404" target="_blank"
                   ><img
                     src="./img/soc-viber.svg"
                     alt="soclink image"
@@ -500,7 +533,7 @@
                 /></a>
               </li>
               <li>
-                <a href=""
+                <a href="https://wa.me/380666146404" target="_blank"
                   ><img
                     src="./img/soc-whatsapp.svg"
                     alt="soclink image"
@@ -508,7 +541,7 @@
                 /></a>
               </li>
               <li>
-                <a href=""
+                <a href="https://t.me/remotemployees" target="_blank"
                   ><img
                     src="./img/soc-telegram.svg"
                     alt="soclink image"
@@ -516,7 +549,9 @@
                 /></a>
               </li>
               <li>
-                <a href=""
+                <a
+                  href="https://www.instagram.com/remotemployees/"
+                  target="_blank"
                   ><img
                     src="./img/soc-instagram.svg"
                     alt="soclink image"
@@ -524,7 +559,7 @@
                 /></a>
               </li>
               <li>
-                <a href=""
+                <a href="https://fb.com/remotemployees" target="_blank"
                   ><img
                     src="./img/soc-facebook.svg"
                     alt="soclink image"
