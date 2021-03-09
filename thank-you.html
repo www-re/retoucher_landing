@@ -3,16 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="./img/cropped-favicon-32x32.ico" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/thank-you.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Title -->
     <title>RemotEmployees</title>
   </head>
 
-  <body></body>
+  <body>
+    <!-- Бургер меню -->
+    <div class="burger-menu">
+      <a href="#" class="burger-menu_button">
+        <span class="burger-menu_lines"></span>
+      </a>
+      <nav class="burger-menu_nav">
+        <a href="#who" class="burger-menu_link">О вакансии</a>
+        <a href="#duties" class="burger-menu_link">Обязанности</a>
+        <a href="#about" class="burger-menu_link">О нас</a>
+        <a href="#how" class="burger-menu_link">Как попасть</a>
+        <a href="#form" class="burger-menu_link">Контакты</a>
+      </nav>
+      <div class="burger-menu_overlay"></div>
+    </div>
+
+    <!-- Основне меню -->
+    <header>
+      <div class="container header-flex">
+        <a class="header-logo-link" href="./index.html"
+          ><img
+            src="./img/desktop-logo-header.svg"
+            alt="company logo"
+            class="logo-img"
+        /></a>
+        <nav class="nav-bar">
+          <a href="#who" class="nav-link">О вакансии</a>
+          <a href="#duties" class="nav-link">Обязанности</a>
+          <a href="#about" class="nav-link">О нас</a>
+          <a href="#how" class="nav-link">Как попасть</a>
+          <a href="#form" class="nav-link">Контакты</a>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>

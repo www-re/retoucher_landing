@@ -10,6 +10,11 @@ function burgerMenu(selector) {
   });
   links.on("click", () => toggleMenu());
   overlay.on("click", () => toggleMenu());
+  $(document).keyup((event) => {
+    if (event.key === "Escape") {
+      toggleMenu();
+    }
+  });
 
   function toggleMenu() {
     menu.toggleClass("burger-menu_active");

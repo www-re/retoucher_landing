@@ -53,7 +53,7 @@
   background-color: #fff;
 }
 .burger-menu_nav {
-  padding: 39px 0 58px 0;
+  padding: 38px 0 38px 0;
   position: fixed;
   z-index: 26;
   display: flex;
@@ -840,7 +840,7 @@
   .form {
     background-image: url("../img/mobile-bg-form/Vector-1.svg"),
       url("../img/mobile-bg-form/Vector.svg");
-    background-position: right 0 bottom -50px, right -3px bottom -55px;
+    background-position: right 0 bottom -50px, right -2px bottom -55px;
     background-repeat: no-repeat;
     background-size: 144.36px 162.4px, 156.85px 176.28px;
   }
