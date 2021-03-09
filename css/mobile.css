@@ -494,7 +494,7 @@
 
 @media (min-width: 700px) and (max-width: 799px) {
   .hero {
-    background-position: bottom -200px right -50px, right 0 bottom -50px;
+    background-position: bottom -200px right -50px, right 0 bottom 0px;
     background-size: 699px 694px, 100%;
   }
   /* who */
@@ -515,13 +515,13 @@
     margin-left: 60px;
   }
   .top-text h1 {
-    width: 400px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     /* text-align: center; */
   }
   .top-text p {
-    width: 400px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     /* text-align: center; */
@@ -571,7 +571,7 @@
 
 @media (min-width: 600px) and (max-width: 699px) {
   .hero {
-    background-position: bottom -200px right 0, right 0 bottom -50px;
+    background-position: bottom -200px right 0, right 0 bottom 0px;
     background-size: 599px 594px, 100%;
   }
   /* who */
@@ -648,9 +648,8 @@
     background-image: url("../img/mobile-bg-hero/Group.svg"),
       url("../img/mobile-bg-hero/Vector.svg");
     background-size: 100% 378.63px, 100% 619.95px;
-    background-position: left 0 bottom -100px, right 0 bottom -100px;
+    background-position: left 0 bottom -100px, right 0 bottom -200px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     overflow: hidden;
   }
   /* who */
@@ -749,9 +748,9 @@
     background-image: url("../img/mobile-bg-hero/Group.svg"),
       url("../img/mobile-bg-hero/Vector.svg");
     background-size: 100% 378.63px, 100% 619.95px;
-    background-position: left 0 bottom -100px, right 0 bottom -100px;
+    background-position: left 0 bottom -100px, right 0 bottom -200px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
     overflow: hidden;
   }
   /* who */
@@ -811,14 +810,13 @@
   }
 }
 /* bg */
-@media (min-width: 320px) and (max-width: 399px) {
+@media (min-width: 280px) and (max-width: 399px) {
   .hero {
     background-image: url("../img/mobile-bg-hero/Group.svg"),
       url("../img/mobile-bg-hero/Vector.svg");
     background-size: 100% 378.63px, 100% 619.95px;
-    background-position: left 0 bottom -100px, right 0 bottom -100px;
+    background-position: left 0 bottom -100px, right 0 bottom -200px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     overflow: hidden;
   }
 }
@@ -829,13 +827,13 @@
       url("../img/about-vectors/Vector-1.svg");
     background-repeat: no-repeat;
     background-position: right 106px bottom 56px, right 235px bottom 56px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
   .how {
     background-image: url("../img/about-vectors/Vector-2.svg");
     background-repeat: no-repeat;
     background-position: left -30px top 185px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
   .form {
     background-image: url("../img/mobile-bg-form/Vector-1.svg"),

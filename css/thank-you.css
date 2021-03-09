@@ -46,8 +46,8 @@
   background: #8ed864;
   border-radius: 67px;
   font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
   font-size: 22px;
   line-height: 140%;
   color: #ffffff;
@@ -57,8 +57,8 @@
   margin-top: 153.94px;
 }
 .feedback-soclinks > li {
-  width: 39px;
-  height: 39px;
+  width: 40px;
+  height: 40px;
   background: #b8e3a0;
   border-radius: 8px;
   display: flex;
@@ -72,8 +72,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
 }
 .feedback-soclinks img {
   display: block;
@@ -227,40 +227,66 @@
     margin-right: 20.21px;
   }
 }
-@media (min-width: 500px) and (max-width: 599px) {
+@media (min-width: 280px) and (max-width: 599px) {
   .feedback {
-    padding-bottom: 107px;
+    padding-top: 37.76px;
+    padding-bottom: 0px;
+  }
+  .feedback-flex {
+    flex-direction: column-reverse;
   }
   .feedback-flex > img {
-    width: 305px;
-    height: auto;
-    margin-right: 17.03px;
-    margin-left: -37.66px;
-    margin-top: 0;
+    width: 354px;
+    height: 336px;
+    margin-bottom: 30px;
+    margin-top: -40px;
+    margin-left: -26.98px;
+    margin-right: 0;
   }
   .feedback-text {
-    margin-top: 133.89px;
+    margin-top: 0px;
   }
   .feedback-soclinks {
-    margin-top: 53.94px;
+    display: none;
   }
   .feedback-text > h1 {
-    font-size: 35px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
   }
   .feedback-text > h2 {
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 17.78px;
   }
   .feedback-text > p {
-    width: 280.3px;
-    margin-bottom: 34.64px;
+    font-weight: 400;
     font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 41px;
+    width: 397.14px;
   }
   .feedback-text > a {
-    width: 200.97px;
+    width: 269px;
     height: 50px;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
   }
   .feedback-soclinks > li:not(:last-child) {
     margin-right: 20.21px;
+  }
+}
+@media (min-width: 300px) and (max-width: 499px) {
+  .feedback-text > p {
+    width: 297.14px;
+  }
+  .feedback-flex > img {
+    width: 324px;
+    margin-bottom: 30px;
+    margin-top: -40px;
+    margin-left: -26.98px;
+    margin-right: 0;
   }
 }

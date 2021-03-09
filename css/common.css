@@ -757,7 +757,7 @@ footer {
   }
   .hero {
     background-position: bottom -270px right -50px, right 0 bottom -20px;
-    background-size: 659px 894px, 100%;
+    background-size: 859px 894px, 100%;
   }
 }
 @media (max-width: 999px) {
@@ -773,7 +773,7 @@ footer {
     background-repeat: no-repeat;
     background-position: right -83px bottom 544px, right 164px top 81px,
       left 290px bottom 72px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 }
 
@@ -934,7 +934,7 @@ footer {
     background-repeat: no-repeat;
     background-position: right 106px bottom 56px, right 235px bottom 56px,
       right 180px top 185px, left 0 bottom 191px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 }
 
@@ -953,6 +953,6 @@ footer {
     background-image: url("../img/how-vectors/Vector.svg");
     background-repeat: no-repeat;
     background-position: left 117px bottom 181px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 }
