@@ -310,7 +310,7 @@
     background-size: 1500px, 155px, 65.66px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .feedback {
     background-image: url("../img/thank-you/bg-desktop.svg"),
       url("../img/thank-you/vector-l-feedback.svg"),
@@ -357,5 +357,87 @@
     background-position: bottom 0 left -20px, top 103px right -20px,
       top 95px right 124px;
     background-size: 1200px, 155px, 65.66px;
+  }
+}
+@media (min-width: 900px) and (max-width: 999px) {
+  .feedback {
+    background-position: bottom 0 left -20px, top 103px right -50px,
+      top 55px right 84px;
+    background-size: 1000px, 155px, 65.66px;
+    padding-bottom: 120px;
+  }
+  .feedback-flex > img {
+    margin-left: -10px;
+  }
+}
+@media (min-width: 800px) and (max-width: 899px) {
+  .feedback {
+    background-position: bottom 0 left -20px, top 43px right -50px,
+      top 45px right 84px;
+    background-size: 1000px, 105px, 35.66px;
+    padding-bottom: 120px;
+  }
+  .feedback-flex > img {
+    margin-left: -10px;
+  }
+}
+@media (min-width: 700px) and (max-width: 799px) {
+  .feedback {
+    background-position: bottom 0 left -20px, top 43px right -50px,
+      top 45px right 84px;
+    background-size: 900px, 105px, 35.66px;
+    padding-bottom: 120px;
+  }
+  .feedback-flex > img {
+    margin-left: -10px;
+  }
+}
+/* mobile background */
+@media (min-width: 600px) and (max-width: 699px) {
+  .feedback {
+    background-position: bottom 0 left -20px, top 23px right -50px,
+      top 25px right 84px;
+    background-size: 800px, 105px, 35.66px;
+    padding-bottom: 100px;
+  }
+  .feedback-flex > img {
+    margin-left: -20px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 500px) and (max-width: 599px) {
+  .feedback {
+    background-image: url("../img/thank-you/bg-mobile.svg"),
+      url("../img/thank-you/vector-l-feedback.svg"),
+      url("../img/thank-you/vector-s-feedback.svg");
+  }
+  .feedback {
+    background-position: bottom -150px left 0, top 323px right -50px,
+      top 285px right 84px;
+    background-size: 500px, 105px, 35.66px;
+  }
+}
+@media (min-width: 400px) and (max-width: 499px) {
+  .feedback {
+    background-image: url("../img/thank-you/bg-mobile.svg"),
+      url("../img/thank-you/vector-l-feedback.svg"),
+      url("../img/thank-you/vector-s-feedback.svg");
+  }
+  .feedback {
+    background-position: bottom -60px left 0, top 323px right -50px,
+      top 285px right 84px;
+    background-size: 400px, 105px, 35.66px;
+  }
+}
+@media (min-width: 300px) and (max-width: 399px) {
+  .feedback {
+    background-image: url("../img/thank-you/bg-mobile.svg"),
+      url("../img/thank-you/vector-l-feedback.svg"),
+      url("../img/thank-you/vector-s-feedback.svg");
+  }
+  .feedback {
+    background-position: bottom -150px left 0, top 323px right -50px,
+      top 285px right 84px;
+    background-size: 500px, 105px, 35.66px;
   }
 }
