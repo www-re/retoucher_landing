@@ -436,8 +436,8 @@
       url("../img/thank-you/vector-s-feedback.svg");
   }
   .feedback {
-    background-position: bottom -150px left 0, top 323px right -50px,
-      top 285px right 84px;
-    background-size: 500px, 105px, 35.66px;
+    background-position: bottom -150px left 0, top 0px right -40px,
+      top 0px right 44px;
+    background-size: 500px, 81px, 22px;
   }
 }

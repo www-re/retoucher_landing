@@ -115,8 +115,6 @@
 
 /* Контент */
 @media (max-width: 799px) {
-  .container {
-  }
   header {
     padding-top: 10.68px;
   }
