@@ -82,8 +82,8 @@
 }
 @media (min-width: 900px) and (max-width: 999px) {
   .hero {
-    background-position: bottom -200px right 0, right 0 bottom -50px;
-    background-size: 799px 794px, 100%;
+    background-position: bottom -220px right -50px, right 0 bottom -50px;
+    background-size: 699px 794px, 100%;
     /* background-attachment: fixed; */
   }
   .about-flex {
@@ -177,8 +177,8 @@
 }
 @media (min-width: 800px) and (max-width: 899px) {
   .hero {
-    background-position: bottom -120px right 0, right 0 bottom -20px;
-    background-size: 699px 594px, 100%;
+    background-position: bottom -150px right -50px, right 0 bottom -20px;
+    background-size: 599px 594px, 100%;
   }
   .about-flex {
     align-items: center;
