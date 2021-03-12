@@ -1,6 +1,52 @@
+/* logo */
+.logo_wrapper {
+  font-family: "Oswald", sans-serif;
+  width: fit-content;
+  display: flex;
+  justify-content: start;
+  margin-right: 20px;
+  color: #434342;
+}
+.logo_wrapper.logo--footer {
+  color: #f0f0f0;
+}
+
+.logo__img {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.logo__text--main {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: -2px;
+  margin-bottom: -4px;
+}
+
+.logo__text--sub {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 8.5px;
+}
+@media (min-width: 1024px) {
+  .logo__img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .logo__text--main {
+    font-size: 22px;
+  }
+
+  .logo__text--sub {
+    font-size: 12.5px;
+  }
+}
+
 /* Base */
 * {
-  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
 }
@@ -30,16 +76,14 @@ ul {
 }
 
 /* Header */
-header {
-  padding-top: 26.37px;
-}
+
 .header-flex {
   display: flex;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 10px;
 }
-header .logo-img {
-  width: 147px;
-}
+
 .nav-bar {
   display: flex;
   margin-left: 150.58px;

@@ -115,9 +115,6 @@
 
 /* Контент */
 @media (max-width: 799px) {
-  header {
-    padding-top: 10.68px;
-  }
   .header-logo-link {
     padding-top: 5px;
   }
